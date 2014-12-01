@@ -1,0 +1,13 @@
+name: SimpleAnnouncements
+main: com.woutwoot.simpleannouncements.Main
+version: ${project.version}
+author: woutwoot
+description: Easy to use plugin for server announcements.
+website: http://woutwoot.com/
+commands:
+  sa:
+    description: Main command for SimpleAnnouncements.
+    aliases: [simpleannouncements, simpa]
+    permission: sa.command
+    permission-message: You do not have the required permission (<permission>)
+    usage: "Sorry, that's not the way to use this command... Try /<command> help."
